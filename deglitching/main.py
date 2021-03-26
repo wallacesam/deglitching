@@ -212,7 +212,9 @@ def deglitch(energy, mu, group, e_window='xas', sg_window_length=9, sg_polyorder
     alpha : float, default: .001
         Alpha value for generalized ESD test for outliers.
     max_glitches : int, default: len(data)//10
-         Maximum number of outliers to remove.
+        Maximum number of outliers to remove.
+    plot_res : bool, default: False
+        Command to plot the final normalized residuals and a histogram of their distribution. 
     
     Returns
     -------
