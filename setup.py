@@ -22,7 +22,6 @@ setup(
         'numpy>=1.16.4',
         'scipy>=1.3.1',
         'bokeh>=2.2.3',
-        'nodejs>=15.11.0',
         'ipywidgets>=7.5.1',
     ],
 )
